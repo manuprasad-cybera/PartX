@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Initialize Sequelize for database connection
-const sequelize = new Sequelize('PartX', 'root', 'Root@123', {
+const sequelize = new Sequelize('u385969845_partx', 'u385969845_partx', '0A^Yhf4R=q', {
   host: 'localhost',
   dialect: 'mysql',
 });
